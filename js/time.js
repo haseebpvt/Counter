@@ -1,7 +1,7 @@
-let countries =       ['JAPAN', 'CHINA', 'MALASIA', 'INDONESIA', 'INDIA', 'DUBAI', 'SAUDI', 'RUSSIA', 'GERMANY', 'USA']
-let countries_time_diff = [210, 150, 150, 90, 0, -90, -150, -150, -270, -630]
+let countries =       ['INDIA', 'DUBAI', 'SAUDI', 'RUSSIA', 'GERMANY', 'USA']
+let countries_time_diff = [0, -90, -150, -150, -270, -630]
 //                          J    C    M    I  I   D     S     R     G     U
-let countries_title = ['J A P A N', 'C H I N A', 'M A L A S I A', 'I N D O N E S I A', 'I N D I A', 'D U B A I', 'S A U D I', 'R U S S I A', 'G E R M A N Y', 'U S A']
+let countries_title = ['I N D I A', 'D U B A I', 'S A U D I', 'R U S S I A', 'G E R M A N Y', 'U S A']
 var new_year_index = 0
 
 
@@ -44,23 +44,11 @@ async function displayTime() {
     // Dubai
     displayTimer(-90, "secondary_box_uae", "dubai", h, m, s)
 
-    // Japan
-    displayTimer(210, "secondary_box_japan", "japan", h, m, s)
-
     // Russia
     displayTimer(-150, "secondary_box_russia", "russia", h, m, s)
 
-    // Indonesia
-    displayTimer(90, "secondary_box_indonesia", "indonesia", h, m, s)
-
     // Saudi
     displayTimer(-150, "secondary_box_saudi", "saudi", h, m, s)
-
-    // Malasia
-    displayTimer(150, "secondary_box_malasia", "malasia", h, m, s)
-
-    // China
-    displayTimer(150, "secondary_box_china", "china", h, m, s)
 
   }
 
