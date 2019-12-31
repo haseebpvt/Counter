@@ -23,7 +23,7 @@ async function displayTime() {
     await sleep(1000)
 
     // India
-    document.getElementById("main_img").src = '../asset/' + countries[new_year_index].toLowerCase() + '_round.png'
+    document.getElementById("main_img").src = 'asset/' + countries[new_year_index].toLowerCase() + '_round.png'
     document.getElementById("main_title").innerHTML = countries_title[new_year_index]
     document.getElementById("main_timer").innerHTML = prepareCountryFinalTime(countries_time_diff[new_year_index], h, m, s)
 
