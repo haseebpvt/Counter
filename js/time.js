@@ -22,13 +22,12 @@ async function displayTime() {
     // Sleeping for one second
     await sleep(1000)
 
-<<<<<<< HEAD
+    // Main box
+    document.getElementById("main_img").src = 'asset/' + countries[new_year_index].toLowerCase() + '_round.png'
+
     // India
     document.getElementById("main_img").src = 'asset/' + countries[new_year_index].toLowerCase() + '_round.png'
-=======
-    // Main box
-    document.getElementById("main_img").src = '../asset/' + countries[new_year_index].toLowerCase() + '_round.png'
->>>>>>> c006ed642b6639da4dd54f0e1d6782707665f27d
+
     document.getElementById("main_title").innerHTML = countries_title[new_year_index]
     document.getElementById("main_timer").innerHTML = prepareCountryFinalTime(countries_time_diff[new_year_index], h, m, s)
 
