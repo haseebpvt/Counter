@@ -1,0 +1,32 @@
+.secondary_box {
+  width: 280px;
+  height: 30px;
+  background-color: #181818;
+  border-radius: 100px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.secondary_box img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+}
+
+.secondary_box h3 {
+  color: #bababa;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.secondary_box p {
+  text-align: right;
+  color: #bababa;
+  font-family: sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 10;
+}
