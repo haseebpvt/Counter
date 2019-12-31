@@ -1,7 +1,7 @@
-let countries =       ['INDIA', 'DUBAI', 'SAUDI', 'RUSSIA', 'GERMANY', 'USA']
+let countries =       ['INDIA', 'UAE', 'SAUDI', 'RUSSIA', 'GERMANY', 'USA']
 let countries_time_diff = [0, -90, -150, -150, -270, -630]
 //                          J    C    M    I  I   D     S     R     G     U
-let countries_title = ['I N D I A', 'D U B A I', 'S A U D I', 'R U S S I A', 'G E R M A N Y', 'U S A']
+let countries_title = ['I N D I A', 'U A E', 'S A U D I', 'R U S S I A', 'G E R M A N Y', 'U S A']
 var new_year_index = 0
 
 
